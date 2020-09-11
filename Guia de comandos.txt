@@ -12,3 +12,16 @@ git config --global user.email "romario.ventura89@gmail.com"
 // comando para saber si se agrego correctamente el correo
 git congif user.email
 
+//comando para iniciar un nuevo repositorio
+git init
+
+//comando para ver estatus 
+git status
+
+//comando para agregar los archivos al proyecto 
+// punto para agregar todos o se puede usar la direccion completa del archivo deseado a subir
+git add .
+
+//comando para enviar los confirmar los cambios 
+git commit -m "algun comentario que ayude a identificar la modificacion o el cammbio realizado"
+
