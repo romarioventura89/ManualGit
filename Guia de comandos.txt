@@ -25,3 +25,22 @@ git add .
 //comando para enviar los confirmar los cambios 
 git commit -m "algun comentario que ayude a identificar la modificacion o el cammbio realizado"
 
+// comando para regresar un paso al momento de intentar subir cambios (este commando suele ejecutarse despues de un add ya que podriamos no querer agregar un archivo al repositorio o talvez se agrego por equivivacion)
+
+git rm --cached nombrearchivo.txt
+//y para verificar el estatus ejecutamos nuevamente el comando git status
+
+// Cuando dentro de nuestras carpetas y tenemos archivos que no deseamos subir por ejemplo .pdf .mp3 .mp4 cualquier extencion hacemos lo siguiente 
+
+1- creamos una archivo de texto en la raiz de nuestra carpeta que esta relacionada al repositorio llamado ".gitignore"
+2- dentro del archivo colocamos la siguiente linea
+	* .mp3
+	* .mp4
+y asi enlistamos todas las extenciones de los archivos que deseamos ignorar, literalmente podemos enlistar todas las extenciones que deseemos 
+
+//comando para ver cuantos commit se han realizado dentro del proyecto
+git log 
+
+//comando que da un detalle mas a fondo del commit realizado 
+git log --stat
+
