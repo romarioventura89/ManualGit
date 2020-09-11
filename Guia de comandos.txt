@@ -1,0 +1,14 @@
+Configuracion y comandos git 
+
+// commando para agregar en nombre del usuario
+git config --global user.name "romarioventura89" 
+
+// para ver si se agrego correctamente el usuario 
+git config user.name
+
+// comando para agregar el correo 
+git config --global user.email "romario.ventura89@gmail.com"
+
+// comando para saber si se agrego correctamente el correo
+git congif user.email
+
