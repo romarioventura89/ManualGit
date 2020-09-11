@@ -44,3 +44,20 @@ git log
 //comando que da un detalle mas a fondo del commit realizado 
 git log --stat
 
+//comando para saber el id del commit que se realizo 
+git log --oneline
+
+// comando para regresar en la linea de tiempo, con esto podemos regresar a cualquier version de los commit, usando el id que podemos ver apartir del comando anterior "git log --oneline"
+git checkout id
+
+//comando para saber cuantas ramas tengo en mi repositorio
+git branch
+
+//comando para cambiar de rama 
+git checkout master
+
+//comando para crear una nueva rama
+git checkout  -b nombredelarama
+
+Se guarda en la rama romario
+
